@@ -16,7 +16,7 @@ public class VerificationPage {
         codeField.shouldBe(visible);
     }
 
-    public void verifyerrorNotification(String expectedText) {
+    public void verifyErrorNotification(String expectedText) {
         errorNotification.shouldHave(exactText(expectedText)).shouldBe(visible);
     }
 
